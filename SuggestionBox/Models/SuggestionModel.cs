@@ -14,6 +14,8 @@ namespace SuggestionBox.Models
         [Key]
         public int RecordNum { get; set; }
         
+        
+
         public string Topic
         {
             get { return this.topic; }
@@ -25,6 +27,8 @@ namespace SuggestionBox.Models
             get { return this.suggestion; }
             set { this.suggestion = value; }
         }
+        public string Name { get; set; }
+        
 
 
     }
